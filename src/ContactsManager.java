@@ -1,7 +1,7 @@
 public class ContactsManager {
     // Fields
-    Contact [] myFriends;
-    int friendsCount;
+    private Contact [] myFriends;
+    private int friendsCount;
 
     // Constructor
     ContactsManager() {
