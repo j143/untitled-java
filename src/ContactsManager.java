@@ -16,8 +16,9 @@ public class ContactsManager {
     }
 
     Contact searchContact(String jana) {
-        if (myFriends[0].name.equals(jana))
-            return myFriends[0];
+        for(int i=0; i < myFriends.length; i++)
+            if (myFriends[i].name.equals(jana))
+                return myFriends[i];
         return null;
     }
 }
